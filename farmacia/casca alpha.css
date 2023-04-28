@@ -1,0 +1,91 @@
+
+body,
+html {
+    height: 100%;
+    background-image: url(alpha\ pharmy.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.acessorapido {
+    float: left;
+    width: 100%;
+    height: 28px;
+    max-width: 1000px;
+    margin-top: 90px;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.p {
+
+    float: left;
+    width: 100%;
+    height: 28px;
+    max-width: 1000px;
+    margin-top: 1px;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0004ff;
+    border-radius: 30px;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pa {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+}
+
+.pa:hover {
+    background-color: #fff;
+    color: #333;
+    transform: scaleY(1);
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pa {
+        margin-bottom: 10px;
+    }
+}
